@@ -1,1 +1,170 @@
-# Kiddies-Store
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Kiddies🔫🎠</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./orderly.css">
+</head>
+<body>
+  <header>
+    <h1>Kiddies🔫🎠</h1>
+    <div class="cart" id="cart-btn">
+      🛒 Cart (<span id="cart-count">0</span>)
+    </div>
+  </header>
+  
+  <!-- Filter Bar -->
+  <div id="filter-bar">
+    <button class="filter-btn" data-filter="all">All</button>
+    <button class="filter-btn" data-filter="toy">Toys</button>
+    <button class="filter-btn" data-filter="book">Books</button>
+    <button class="filter-btn" data-filter="cloth">Cloths</button>
+  </div>
+  
+  <main>
+    <div class="product-grid">
+      <!-- Product 1 (Toy) -->
+      <div class="product" 
+           data-id="1" 
+           data-name="Optimist Prime" 
+           data-price="79.99"
+           data-description="optimist Prime."
+           data-img=""
+           data-category="toy">
+        <img src="./optimist.png" alt="Product 1" /> <br><br><br>
+        <h2>Optimist Prime</h2>
+        <p class="price">$79.99</p>
+        <p>A transformer toy for kids.</p>
+        <button class="add-to-cart" data-product-id="1">Add to Cart</button>
+      </div>
+      <!-- Product 2 (Book) -->
+      <div class="product" 
+           data-id="2" 
+           data-name="Jungle Book" 
+           data-price="59.99"
+           data-description="A delightful story book."
+           data-img=""
+           data-category="book">
+        <img src="./JungleBook.png" alt="Product 2" /> <br><br><br><br><br>
+        <h2>Jungle Book</h2>
+        <p class="price">$59.99</p>
+        <p>A delightful story book.</p>
+        <button class="add-to-cart" data-product-id="2">Add to Cart</button>
+      </div>
+      <!-- Product 3 (Toy) -->
+      <div class="product"
+           data-id="3"
+           data-name="Lego Star-Wars"
+           data-price="100.99"
+           data-description="An exciting action figure."
+           data-img=""
+           data-category="toy">
+        <img src="./starwars.png" alt="Product 3" width="800"/> <br><br><br><br><br><br><br><br><br>
+        <h2>Lego Star Wars.</h2>
+        <p class="price">$109.99</p>
+        <p>An exciting action figure.</p>
+        <button class="add-to-cart" data-product-id="3">Add to Cart</button>
+      </div>
+      <!-- Product 4 (Book) -->
+      <div class="product"
+           data-id="4"
+           data-name="DK Encyclopedia"
+           data-price="200.99"
+           data-description="An informative book."
+           data-img=""
+           data-category="book">
+        <img src="./informative.png" alt="Product 4" /> <br><br><br><br>
+        <h2>DK Encyclopedia</h2>
+        <p class="price">$200.99</p>
+        <p>An informative book.</p>
+        <button class="add-to-cart" data-product-id="4">Add to Cart</button>
+      </div>
+      <!-- Product 5 (Toy) -->
+      <div class="product"
+           data-id="5"
+           data-name="Rubics Cube"
+           data-price="29.99"
+           data-description="A playful puzzle game."
+           data-img=""
+           data-category="toy">
+        <img src="./rubics.png" alt="Product 5" /> <br><br><br><br>
+        <h2>Rubics</h2>
+        <p class="price">$29.99</p>
+        <p>A playful puzzle game.</p>
+        <button class="add-to-cart" data-product-id="5">Add to Cart</button>
+      </div>
+      <!-- Product 6 (Book) -->
+      <div class="product"
+           data-id="6"
+           data-name="X Force Comic Book"
+           data-price="69.99"
+           data-description="A captivating comic book."
+           data-img=""
+           data-category="book">
+        <img src="./xforce.png" alt="Product 6" />
+        <h2>X Force Comic Book</h2>
+        <p class="price">$69.99</p>
+        <p>A captivating comic book.</p>
+        <button class="add-to-cart" data-product-id="6">Add to Cart</button>
+      </div>
+
+      <!-- Product 7 (cloth) -->
+      <div class="product"
+           data-id="7"
+           data-name="T.Shirt"
+           data-price="49.99"
+           data-description="Personalized Shirt."
+           data-img=""
+           data-category="cloth">
+        <img src="./pshirts.png" alt="Product 6" /><br><br><br><br><br><br><br><br>
+        <h2>T.Shirt</h2>
+        <p class="price">$49.99</p>
+        <p>Personalized Shirt.</p>
+        <button class="add-to-cart" data-product-id="6">Add to Cart</button>
+      </div>
+
+
+      <!-- Product 8 (cloth) -->
+      <div class="product"
+           data-id="8"
+           data-name="Dazzling Gown"
+           data-price="219.99"
+           data-description="A pink dazzling gown."
+           data-img=""
+           data-category="cloth">
+        <img src="./ggshirts.png" alt="Product 6" /> <br><br><br><br><br><br><br><br>
+        <h2>Dazzling Gown</h2>
+        <p class="price">$219.99</p>
+        <p>A pink dazzling gown.</p>
+        <button class="add-to-cart" data-product-id="6">Add to Cart</button>
+      </div>
+
+       <!-- Product 9 (cloth) -->
+       <div class="product"
+       data-id="9"
+       data-name="Unisex Winter Wear"
+       data-price="119.99"
+       data-description="Plain Unisex Wears."
+       data-img=""
+       data-category="cloth">
+    <img src="./unisex.png" alt="Product 6" /> <br><br><br><br><br><br><br><br>
+    <h2>Unisex Winter Wear</h2>
+    <p class="price">$119.99</p>
+    <p>Plain Unisex Wears.</p>
+    <button class="add-to-cart" data-product-id="6">Add to Cart</button>
+  </div>
+</div>
+  </main>
+  
+  <!-- Modal for Product Quick View and Cart -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+  
+  <script src="./orderly.js"></script>
+</body>
+</html>
