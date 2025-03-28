@@ -7,7 +7,6 @@
 </head>
 <body>
   <header>
-    <h1>Kiddies🔫🎠</h1>
     <div class="cart" id="cart-btn">
       🛒 Cart (<span id="cart-count">0</span>)
     </div>
