@@ -31,7 +31,7 @@
            data-description="optimist Prime."
            data-img=""
            data-category="toy">
-        <img src="./optimist.png" alt="Product 1" /> <br><br><br>
+        <img src="./optimist.png" alt="Product 1" /> <br><br><br><br><br>
         <h2>Optimist Prime</h2>
         <p class="price">$79.99</p>
         <p>A transformer toy for kids.</p>
@@ -45,7 +45,7 @@
            data-description="A delightful story book."
            data-img=""
            data-category="book">
-        <img src="./JungleBook.png" alt="Product 2" /> <br><br><br><br><br>
+        <img src="./JungleBook.png" alt="Product 2" /> <br><br><br><br><br><br>
         <h2>Jungle Book</h2>
         <p class="price">$59.99</p>
         <p>A delightful story book.</p>
