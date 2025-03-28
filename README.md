@@ -7,6 +7,7 @@
 </head>
 <body>
   <header>
+    <img src="./Logo.jpg" alt="" width="100" height="100">
     <div class="cart" id="cart-btn">
       🛒 Cart (<span id="cart-count">0</span>)
     </div>
